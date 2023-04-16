@@ -1,0 +1,97 @@
+
+.pokemon-card {
+    scale: 1;
+    color:#fefefeb3;
+    border-radius: 50px 0;
+    transition: all .3s ease-in-out;
+    animation: fadeInCard 1s ease-in-out;
+  }
+
+  .pokemon-card:nth-of-type(3),
+  .pokemon-card:nth-of-type(4) {
+    opacity: 0;
+    translate: -3rem -3rem;
+    animation-delay: .2s;
+    animation-fill-mode: forwards;
+  }
+  .pokemon-card:nth-of-type(5),
+  .pokemon-card:nth-of-type(6) {
+    opacity: 0;
+    translate: -3rem -3rem;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+  }
+  .pokemon-card:nth-of-type(7),
+  .pokemon-card:nth-of-type(8) {
+    opacity: 0;
+    translate: -3rem -3rem;
+    animation-delay: .4s;
+    animation-fill-mode: forwards;
+  }
+  .pokemon-card:nth-of-type(9),
+  .pokemon-card:nth-of-type(10) {
+    opacity: 0;
+    translate: -3rem -3rem;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+  }
+  .pokemon-card:nth-of-type(11),
+  .pokemon-card:nth-of-type(12) {
+    opacity: 0;
+    translate: -3rem -3rem;
+    animation-delay: .6s;
+    animation-fill-mode: forwards;
+  }
+  .pokemon-card:nth-of-type(13),
+  .pokemon-card:nth-of-type(14) {
+    opacity: 0;
+    translate: -3rem -3rem;
+    animation-delay: .7s;
+    animation-fill-mode: forwards;
+  }
+  .pokemon-card:nth-of-type(15),
+  .pokemon-card:nth-of-type(16) {
+    opacity: 0;
+    translate: -3rem -3rem;
+    animation-delay: .8s;
+    animation-fill-mode: forwards;
+  }
+  .pokemon-card:nth-of-type(17),
+  .pokemon-card:nth-of-type(18) {
+    opacity: 0;
+    translate: -3rem -3rem;
+    animation-delay: .9s;
+    animation-fill-mode: forwards;
+  }
+  .pokemon-card:nth-of-type(19),
+  .pokemon-card:nth-of-type(20) {
+    opacity: 0;
+    translate: -3rem -3rem;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  .pokemon-card:hover {
+    scale: 1.1;
+    background: #fefefeb3;
+    color: blue;
+    border-radius: 0 50px;
+  }
+  
+  .pokemon-card:hover a {
+    color: rgba(0, 0, 255, 0.694);
+  }
+
+  @keyframes fadeInCard {
+    0%
+    {
+      opacity: 0;
+      translate: -3rem -3rem;
+    }
+    100% 
+    {
+      opacity: 1;
+      translate: 0 0;
+    }
+  }
+  

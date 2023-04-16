@@ -1,0 +1,17 @@
+.pokemon-fade-in {
+    opacity: 1;
+    scale:1;
+    animation: fadeInContainer 1.2s ease-in-out;
+  }
+
+  @keyframes fadeInContainer {
+    0% {
+      opacity: 0;
+      scale: 0;
+    }
+  
+    100% {
+      opacity: 1;
+      scale: 1;
+    }
+  }

@@ -1,0 +1,41 @@
+.single-pokemon {
+    animation: fadeInPokemon .5s ease-in-out;
+    rotate: 0;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
+.single-pokemon.fade-out {
+    opacity: 0;
+    rotate: -180deg;
+}
+
+.tab {
+    animation: pulsate 4s ease-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1.3s;
+    opacity: .9; 
+    scale: .8;
+}
+
+.img-div {
+    animation: pulsate 4s ease-out;
+    animation-iteration-count: infinite;
+    opacity: .9; 
+    scale: .8;
+}
+
+@keyframes fadeInPokemon {
+    0% 
+    {opacity: 0; rotate: 180deg;
+    }
+    100%
+    {opacity: 1; rotate: 0;
+    }
+}
+
+@keyframes pulsate {
+    0% {scale: 0.8; opacity: .9;}
+    30% {scale: 1; opacity: 1;}
+    100% {scale: 0.8; opacity: .9;}
+}

@@ -45,7 +45,7 @@ function App() {
   }
   return (
     <>
-      <BrowserRouter>
+     
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -53,7 +53,7 @@ function App() {
           <Route path="/pokemon" element={<Pokemon  names={names}/>} />
         </Routes>
 
-      </BrowserRouter>
+      
     </>
   );
 }

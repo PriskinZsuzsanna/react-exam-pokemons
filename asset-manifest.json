@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-exam-pokemons/static/css/main.76ebc885.css",
+    "main.js": "/react-exam-pokemons/static/js/main.1a787679.js",
+    "static/media/logo.png": "/react-exam-pokemons/static/media/logo.2a657b232a766959e49b.png",
+    "index.html": "/react-exam-pokemons/index.html",
+    "main.76ebc885.css.map": "/react-exam-pokemons/static/css/main.76ebc885.css.map",
+    "main.1a787679.js.map": "/react-exam-pokemons/static/js/main.1a787679.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76ebc885.css",
+    "static/js/main.1a787679.js"
+  ]
+}
